@@ -1,3 +1,70 @@
 *{
     font-family: 'Courier New', Courier, monospace;
+    padding: 0;
+    margin: 0;
+    border: none;
+    box-sizing: border-box;
+}
+
+body{
+    justify-items: center;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,32,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+.card{
+    background-color: #f0f0f0;
+    width: 90%;
+    max-width: 470px;
+    background-color: aliceblue;
+    border-radius: 20px;
+    margin: 100px auto 0;
+    text-align: center;
+    padding: 40px 35px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.add-task{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-title-icon{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.card-title-icon img{
+    width: 35px;
+    margin-top: 5px;
+    margin-left: 20px;
+}
+
+.card-title-icon h1{
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.add-task input{
+    outline: 2px solid darkred;
+    flex: 1;
+    height: 60px;
+    padding: 10px 25px;
+    border-radius: 35px;
+    font-size: 18px;
+    color: dimgrey;
+}
+
+.add-task button{
+    background: orangered;
+    border-radius: 35px;
+    outline: 0;
+    width: 100px;
+    height: 60px;
+    cursor: pointer;
+    outline: 2px solid white;
+    color: white;
+    font-size: 18px;
 }
